@@ -1,0 +1,85 @@
+<div class="container-fluid" [hidden]="togleMenu">
+  <div class="row menu" id="abc"> <!-- menu >> -->
+    <div class="col-sm-11 offset-sm-1">
+      <div class="row">
+        <div class="col-sm-8"> <!-- nav panel >> -->
+          <div class="row">
+            <div class="col">
+              <ul>
+                <span routerLink='/products'>Products</span>
+                <li (click)='showProductDetail("SecurityCamera") '>Security Camera</li>
+                <li (click)='showProductDetail("Harddrive")'>Hard Drives</li>
+                <li (click)='showProductDetail("DVR")'>DVR</li>
+                <li (click)='showProductDetail("AttendenceSystem")'>Attendance System</li>
+                <li (click)='showProductDetail("Routerandswitches")'>Router and Switches</li>
+                <li (click)='showProductDetail("Others")'>Others</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <span routerLink='/service'>Services</span>
+                <li>Turn Key Project</li>
+                <li>Annual Maintainance</li>
+                <li>Consulting</li>
+              </ul>
+              <ul>
+                <span routerLink="/events">Events</span>
+                <li>Cam-Secure</li>
+                <li>Secure-Update</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+              <span routerLink='/about'>About</span>
+                <li>About Phoenix</li>
+                <li>Our Team</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+              </ul>
+              <ul>
+                <span routerLink='/even-more'>More</span>
+                <li>Notifications</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>Support
+                <li>Support</li>
+                <li>Feedback</li>
+              </ul>
+            </div>
+          </div>
+        </div> <!-- <</ nav panel -->
+
+        <div class="col-sm-4"><!-- contact us panel >> -->
+          <div class="row">
+            <div class="col-sm-11 menusub">
+              Contact Us
+              <p>146, Shivaji Nagar, <br>Parbhani - 431 401</p>
+              Email
+              <p>phoenixpbn@gmail.com</p>
+              Phone
+              <p>+91 - 9876543210</p>
+            </div>
+            <div class="col-sm-1"></div>
+          </div>
+        </div> <!-- <</ contact us panel -->
+      </div>
+    </div>
+  </div> <!-- <</ menu -->
+</div>
+
+
+<div class="container-fluid">
+  <div class="row submenuback">
+    <div class="col-sm-1" (click)='toggleMenu()' style="text-align:center">
+      <i class="fas fa-grip-horizontal menubtn"></i>
+    </div>
+    <div class="col-sm-1 menu" style="text-align:center" (click)='toggleMenu()'>Phoenix</div>
+    <div class="col-sm-10 actlink">
+      any active links will be shown here
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

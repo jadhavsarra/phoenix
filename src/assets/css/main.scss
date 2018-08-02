@@ -1,0 +1,247 @@
+body{
+  font-family: Helvetica;
+}
+
+.menu{
+  background-color: #D30051;
+  color: #EFEFEF;
+  padding: 5px;
+
+  ul{
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 1.0em;
+    font-weight: 600;
+    li{
+      border-left: 1px solid #cfcfcf;
+      padding-left: 5px;
+      font-size: 0.8em;
+      font-weight: 400;
+    }
+  }
+}
+.menutext{
+  font-size: 15px;
+}
+.menusub{
+  p{
+    font-size: 0.8em;
+  }
+  background-color: #A80242;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.submenuback{
+  background-color: #EFEFEF ;
+}
+.actlink{
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 0.8em;
+  color: #D30051;
+}
+
+.img{
+  height:500px;
+}
+
+#landingpage{
+  background-image: url("../images/bg_support/Image.png");
+  background-position: center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menubtn{
+  color:black;
+  font-size:24px;
+  padding-top: 5px;
+}
+
+.about{
+  padding:30px;
+}
+.aboutheading{
+  height: 200px;
+}
+.toppadding{
+  padding-top: 20px;
+}
+
+#aboutimg{
+  background-image: url("../images/bg_support/business-team.jpg");
+  background-position: center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aboutleft{
+  background-image: url("../images/bg_support/IMG_0509.png");
+  background-position: center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#registerbtn{
+  text-align: center;
+  color: #D30051;
+  background-color: #EFEFEF;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+}
+
+#registerbtn:hover{
+  cursor: pointer;
+}
+
+#links{
+  padding: 10px;
+}
+
+.eventlinks{
+  display:inline-block;
+  padding-right: 10px;
+  margin-right: 15px;
+}
+
+.heading{
+  color:#fff;
+  padding-top:8%;
+  padding-left:20%;
+}
+
+
+#services{
+  .rightheading{
+    text-align: center;
+    color: #fff;
+    background-color: #D30051;
+    padding: 20px;
+    font-size: 1.8em;
+  }
+
+  .serviceright{
+      background-color: #EFEFEF ;
+      border: 1px solid grey;
+  }
+  .subdiv{
+    font-size: 0.9em;
+    padding-bottom: 10px;
+  }
+  .serviceheading{
+    background:#A80242;
+    color:#fff;
+    padding-left:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .serviceselect{
+    padding-left:10px;
+    padding-top: 5px;
+  }
+  .serviceselect:hover{
+    cursor: pointer;
+    background:#d7d7d7;
+  }
+}
+
+.nopadding{
+ padding-left: 0px;
+}
+
+#products{
+  padding-top: 20px;
+  .productleftheading{
+    span{
+      font-size: 0.8em;
+      color: #000;
+      display: inherit;
+    }
+    font-size:1.5em;
+     background-color: #EFEFEF;
+     text-align: center;
+     color: #D30051;
+     padding: 20px;
+     display: block;
+  }
+
+  .productheading{
+    font-size: 2.0em;
+    text-align: center;
+    padding: 20px;
+    background-color: #D30051;
+    color: #EFEFEF;
+  }
+
+  #productimg{
+    //background-image: url("../images/products/20170216162927113.jpg");
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .imgpd{
+    height:250px;
+    width:200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+.productlstheading{
+  background:#A80242;
+  color:#fff;
+  //padding-left:10px;
+  padding: 10px;
+}
+  .productlst{
+    padding-left:10px;
+    font-size:0.9em;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .productlst:hover{
+    cursor: pointer;
+    background:#d7d7d7;
+  }
+
+  .productlst:active{
+      background: #d3d3d3;
+      color: #fff;
+  }
+  ul{
+    list-style-type: none;
+    font-size: 1.0em;
+    font-weight: 600;
+    li{
+      border-left: 1px solid #cfcfcf;
+      padding-left: 5px;
+      font-size: 0.8em;
+      font-weight: 400;
+      padding-top:5px;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+.eventheading{
+  text-align:center;
+  color:#D30051;
+}
+
+.notif{
+  text-align:center;
+  background:#EFEFEF;
+  padding:5px;
+}
+
+.notifdetail{
+  background:#f2f2f273;
+  padding:5px;
+  margin-bottom:5px;
+  padding-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}

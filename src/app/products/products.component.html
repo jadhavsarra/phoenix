@@ -1,0 +1,45 @@
+
+
+<div class="container" id="products">
+  <div class="row">
+    <div class="col productleftheading" id=""> Industry Standard for Security
+    </div>
+    <div class="col productheading">{{productData.name}}</div>
+  </div>
+
+  <div class="row toppadding">
+      <div class="col-sm-2 nopadding">
+        <div class="subdiv submenuback ">
+          <div class="productlstheading"> Product List</div>
+            <div *ngIf="productData.name == 'Turbo HD Camera'">
+              <div *ngFor="let lbl of cams" class="productlst" (click)="proDetil(lbl.desc)">{{lbl.desc}}
+              </div>
+            </div>
+        </div>
+        <!-- <div class="submenuback" style="margin-top: 10px;">
+          <div style="padding-left:10px;background:#d7d7d7">Filter</div>
+          <div *ngFor="let filter of productData.filter">
+            <div style="padding-left:10px">{{filter}}</div>
+          </div>
+        </div> -->
+      </div>
+      <div class="col-sm-4 imgpd" >
+        <img src={{productData.img}} id="productimg">
+      </div>
+      <div class="col serviceright" style="margin-left:15px;">
+        <div class="row productleftheading"> {{productData.desc}}
+        <span>{{productData.desc1}} </span>
+        </div>
+        <!-- <div class="row productleftheading">
+
+        </div> -->
+        <div class="row toppadding" style="background:#f2f2f273">
+          <div style="line-height:4.5px;">
+            <ul>
+              <li *ngFor="let spec of productData.specifications" style="border-left:1px solid #000;"><br>{{spec}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
